@@ -1,4 +1,4 @@
-import * as QtuminfoAPI from '@/services/qtuminfo-api'
+import * as CcsinfoAPI from '@/services/ccsinfo-api'
 
 function formatTimestamp(date) {
   let yyyy = date.getUTCFullYear().toString()
@@ -9,15 +9,15 @@ function formatTimestamp(date) {
 
 class Block {
   static get(id, options = {}) {
-    return QtuminfoAPI.get(`/block/${id}`, options)
+    return CcsinfoAPI.get(`/block/${id}`, options)
   }
 
   static getRecentBlocks(options = {}) {
-    return QtuminfoAPI.get('/recent-blocks', options)
+    return CcsinfoAPI.get('/recent-blocks', options)
   }
 
   static getBlocksByDate(date = new Date(), options = {}) {
-    return QtuminfoAPI.get('/blocks', {params: {date: formatTimestamp(date)}, ...options})
+    return CcsinfoAPI.get('/blocks', {params: {date: formatTimestamp(date)}, ...options})
   }
 }
 

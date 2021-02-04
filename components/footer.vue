@@ -3,31 +3,9 @@
     <div class="container">
       <h3 class="is-size-4 is-uppercase">{{ $t('footer.contact_us') }}</h3>
       <div class="line"></div>
-      <a href="mailto:foundation@qtum.org">foundation@qtum.org</a>
-      <ul class="links">
-        <li>
-          <a target="_blank" href="https://www.facebook.com/QtumOfficial/">
-            <Icon icon="facebook" brands /> {{ $t('footer.facebook') }}
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://twitter.com/qtumofficial">
-            <Icon icon="twitter" brands /> {{ $t('footer.twitter') }}
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://forum.qtum.org">
-            <span class="qtum-icon qtum-icon--qtum"></span> {{ $t('footer.forum') }}
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://github.com/qtumproject/qtum">
-            <Icon icon="github" brands /> Github
-          </a>
-        </li>
-      </ul>
+      <a href="mailto:info@muxe.io">info@muxe.io</a>
       <div class="copyright">
-        2017 - 2019 QTUM CHAIN FOUNDATION &copy; All rights Reserved
+        &copy; All rights Reserved of the CcS Blockchain  are reserved to MUXE BV
       </div>
     </div>
   </footer>
@@ -37,7 +15,7 @@
   footer {
     padding-top: 6rem;
     padding-bottom: 6rem;
-    background-color: #1a191e;
+    background-color: #163157;
     text-align: center;
     color: white;
   }
@@ -74,7 +52,7 @@
       margin-bottom: 2.5rem;
     }
   }
-  span.fab, span.fas, span.qtum-icon {
+  span.fab, span.fas, span.ccs-icon {
     font-size: 2em;
     vertical-align: middle;
   }

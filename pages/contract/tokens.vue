@@ -32,7 +32,7 @@
 
 <script>
   import Contract from '@/models/contract'
-  import {RequestError} from '@/services/qtuminfo-api'
+  import {RequestError} from '@/services/ccsinfo-api'
   import {scrollIntoView} from '@/utils/dom'
 
   export default {

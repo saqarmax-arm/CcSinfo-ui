@@ -1,16 +1,16 @@
 @font-face {
-  font-family: 'qtum-icons';
-  src: url('fonts/qtum-icons.eot?vyas3r');
-  src: url('fonts/qtum-icons.eot?vyas3r#iefix') format('embedded-opentype'),
-    url('fonts/qtum-icons.ttf?vyas3r') format('truetype'),
-    url('fonts/qtum-icons.woff?vyas3r') format('woff'),
-    url('fonts/qtum-icons.svg?vyas3r#qtum-icons') format('svg');
+  font-family: 'ccs-icons';
+  src: url('fonts/ccs-icons.eot?vyas3r');
+  src: url('fonts/ccs-icons.eot?vyas3r#iefix') format('embedded-opentype'),
+    url('fonts/ccs-icons.ttf?vyas3r') format('truetype'),
+    url('fonts/ccs-icons.woff?vyas3r') format('woff'),
+    url('fonts/ccs-icons.svg?vyas3r#ccs-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-.qtum-icon {
-  font-family: 'qtum-icons' !important;
+.ccs-icon {
+  font-family: 'ccs-icons' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -21,9 +21,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.qtum-icon--qtum:before {
+.ccs-icon--ccs:before {
   content: "\e906";
 }
-.qtum-icon--discord:before {
+.ccs-icon--discord:before {
   content: "\e90d";
 }
